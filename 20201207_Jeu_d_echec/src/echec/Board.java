@@ -2,6 +2,8 @@ package echec;
 
 public class Board {
 
+    public String test;
+
     public String nom;
     public int    lignes;
     public int    colonnes;
