@@ -2,7 +2,7 @@ package echec;
 
 public class Board {
 
-    public String test2;
+    public String yoyo;
 
     public String nom;
     public int    lignes;
