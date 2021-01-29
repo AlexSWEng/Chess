@@ -6,9 +6,6 @@ public class Board {
     public int    lignes;
     public int    colonnes;
     public Piece  board[][];
-    // public int nbVoitures;
-    // public int nbCamions;
-    // public int nbBus;
 
     public Board( int lignes, int colonnes, String nom ) {
 
@@ -32,19 +29,9 @@ public class Board {
                 board[i][j] = new PieceNull( i, j );
     }
 
-    // public void fill() {
-    // for (int i = 0; i < lignes; i++) {
-    // for (int j = 0; j < colonnes; j++) {
-    // board[i][j] = tA1;
-    // }
-    // }
-    // }
-
     public void info() {
         System.out.println( "" );
         System.out.print( "INFOS BOARD " + nom + " : " );
-        // System.out.print(nbVoitures+" Pièces blanches mangées : ");
-        // System.out.print(nbCamions+" Pièces noires mangées : ");
         System.out.println( "" );
     }
 
@@ -59,7 +46,6 @@ public class Board {
         }
         System.out.println( "    ^ ^ ^ ^ ^ ^ ^ ^" );
         System.out.println( "    A B C D E F G H" );
-        // info();
     }
 
     public void displayHelp( Piece p ) {
@@ -79,6 +65,5 @@ public class Board {
         }
         System.out.println( "    ^ ^ ^ ^ ^ ^ ^ ^" );
         System.out.println( "    A B C D E F G H" );
-
     }
 }
