@@ -103,7 +103,7 @@ public class Player {
     }
 
     public void affichageNomJoueur() {
-        if ( nom == nom.JBLANC )
+        if ( nom == echec.nom.JBLANC )
             System.out.println( "JOUEUR BLANC" );
         else
             System.out.println( "JOUEUR NOIR" );
